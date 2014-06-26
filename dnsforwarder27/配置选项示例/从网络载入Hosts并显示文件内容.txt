@@ -1,0 +1,3 @@
+Hosts http://xxx.com/hosts
+HostsDownloadPath C:\Windows\Temp\hosts
+HostsScript type C:\Windows\Temp\hosts # `type' Îª Windows ¿ØÖÆÌ¨ÃüÁî

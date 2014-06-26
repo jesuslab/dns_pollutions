@@ -1,0 +1,19 @@
+# 防止污染方式一，此为默认的方式
+# 原理是通过国外 DNS 服务器查询，并过滤伪造的 DNS 包
+
+# 务必将主服务器协议设为 UDP
+PrimaryServer UDP
+
+# UDP 服务器中务必有一个国外服务器
+UDPServer 8.8.8.8,114.114.115.115
+
+# 建议开启并发查询
+ParallelQuery true
+
+# 开启 UDP 防污染
+UDPAntiPollution true
+
+# 请在 `UDPBlock_IP' 选项中添加可能的伪造的 IP 地址
+
+# 请将 `GfwList' 置空
+GfwList

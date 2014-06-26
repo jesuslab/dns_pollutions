@@ -1,0 +1,5 @@
+UDPServer 114.114.114.114 # 您可以指定其他的 UDP 服务器
+
+PrimaryServer UDP
+
+ExcludedDomain *.google.*,googleusercontent.com,googleadservices.com
